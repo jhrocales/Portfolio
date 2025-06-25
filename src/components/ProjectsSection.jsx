@@ -33,6 +33,17 @@ const projects = [
     demoUrl: "https://metadvanced.com/",
     githubUrl: "#",
   },
+
+  {
+    id: 4,
+    title: "Playmakers Hub",
+    description:
+      "A web-based events management system built for USTP’s Playmakers music organization, designed to streamline event coordination, member management, and internal communication. I developed a responsive platform that centralizes event creation, attendance tracking, and profile handling—tailored to the organization's unique structure and creative culture. The system was built using React, Tailwind CSS, and Supabase, with a strong focus on usability, data consistency, and scalable functionality.",
+    image: "/projects/project4.png",
+    tags: ["React", "Tailwind", "Figma", "Supabase"],
+    demoUrl: "https://www.playmakershub.org/",
+    githubUrl: "#",
+  },
 ];
 
 export const ProjectsSection = () => {
