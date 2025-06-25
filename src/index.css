@@ -72,15 +72,14 @@
 
 @layer base {
   :root {
-    --background: 210 40% 98%;
-    --foreground: 222 47% 11%;
+    --background: 48 100% 97%; /* warm ivory */
+    --foreground: 30 60% 20%; /* dark amber */
 
-    --card: 0 0% 100%;
+    --card: 48 100% 100%; /* bright white card */
+    --primary: 38 92% 60%; /* sun-glow yellow */
+    --primary-foreground: 48 100% 97%;
 
-    --primary: 250 47% 60%;
-    --primary-foreground: 210 40% 98%;
-
-    --border: 214 32% 91%;
+    --border: 40 50% 85%;
   }
 
   .dark {
